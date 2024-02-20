@@ -11,19 +11,19 @@ public class QueryStatus {
 
     }
 
-    public static int getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public static void setStatus(int status) {
+    public void setStatus(int status) {
         QueryStatus.status = status;
     }
 
-    public static String getMsg() {
+    public String getMsg() {
         return msg;
     }
 
-    public static void setMsg(String msg) {
+    public void setMsg(String msg) {
         QueryStatus.msg = msg;
     }
 
